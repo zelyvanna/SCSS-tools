@@ -1,0 +1,31 @@
+footer {
+  background-color: #03062f;
+  overflow: hidden; //overflow hidden pour afficher le background
+  padding: {
+    left: 200px;
+    right: 200px;
+    top: 15px;
+  }
+  height: 100px;
+  margin-top: 50px;
+}
+
+#footer-left {
+  color: #4651c3;
+  float: left;
+
+  img {
+    margin-right: 10px;
+  }
+
+}
+
+#footer-right {
+  color: #4651c3;
+  float: right;
+  font-size: 20px;
+
+  i {
+    margin-left: 30px;
+  }
+}

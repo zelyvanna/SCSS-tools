@@ -1,0 +1,33 @@
+.quote-border-blue-left {
+  @include italic();
+  @include black();
+  @include border-left-gradient();
+  padding-left: 40px;
+}
+
+
+.quote-background {
+  @include italic();
+  @include black();
+  padding-left: 40px;
+  // Appel sans paramètres => valeur par défaut : 1 (Couleur)
+  @include background-quote();
+}
+
+.quote-background-grey {
+  @include italic();
+  padding-left: 40px;
+  // Appel avec 0 pour afficher en gris
+  @include background-quote(0);
+}
+
+
+.quote-first-letter {
+  @include italic();
+  @include black();
+  padding-left: 40px;
+
+  p {
+    @include blue-increase-font();
+  }
+}

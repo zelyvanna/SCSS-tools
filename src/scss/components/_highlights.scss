@@ -1,0 +1,19 @@
+.highlight-purple {
+  @include highlight();
+}
+
+.highlight-pink {
+  @include highlight(#ff206f);
+}
+
+.highlight-text-purple {
+  @include highlight-text();
+}
+
+.highlight-text-pink {
+  @include highlight-text(#ff206f);
+}
+
+.highlight-text-blue {
+  @include highlight-text(#6270ff);
+}

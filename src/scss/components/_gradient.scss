@@ -1,0 +1,61 @@
+.gradient-text {
+  &--blue-purple {
+    @include gradient-text(#79ccff, #9b74ff);
+  }
+}
+
+.gradient {
+  &--blue-purple {
+    @include gradient(#79ccff, #9b74ff);
+  }
+
+  &--lightblue-blue {
+    @include gradient(#89d2ff, #7fbdff);
+  }
+
+  &--blue-lightpurple {
+    @include gradient(#7fbdff, #8e97ff);
+  }
+
+  &--lightpurple-purple {
+    @include gradient(#9488ff, #a786ff);
+  }
+
+  &--red-pink{
+    @include gradient(red,#ff26d9);
+  }
+
+  &--cyan-purple{
+    @include gradient(#1bfdec,#9b74ff);
+  }
+
+  &--green-purple{
+    @include gradient(#79ff8f,#7b74ff);
+  }
+
+  &--orange-red{
+    @include gradient(#ffce3a,#ff0e69);
+  }
+
+  &--yellow-purple{
+    @include gradient(#ffce79,#9b74ff);
+  }
+
+  &--pink-blue{
+    @include gradient(pink,#6866ff);
+  }
+
+
+  &--green-yellow{
+    @include gradient(green,yellow);
+  }
+
+  &--purple-blue{
+    @include gradient(#ff18ab,#6e03ff);
+  }
+
+  &--rectangle{
+    height: 500px;
+    margin-bottom: 15px;
+  }
+}

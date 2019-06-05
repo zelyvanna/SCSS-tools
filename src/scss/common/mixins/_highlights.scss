@@ -1,0 +1,12 @@
+// highlight avec possibilité de choisir la couleur de fond
+@mixin highlight($color:#818cff){
+  background-color: $color;
+  color:white;
+}
+
+// highlight avec possibilité de choisir la couleur du texte
+@mixin highlight-text($color:#818cff){
+  color:$color;
+  font-family: "Bw Modelica ExtraBold", sans-serif;
+}
+

@@ -1,0 +1,64 @@
+header {
+  padding: {
+    left: 50px;
+    top: 10px;
+  }
+
+  .logo {
+    padding-top: 25px;
+    float: left;
+  }
+
+
+  nav {
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      @include unlist();
+
+      li {
+
+        padding: {
+          left: 10px;
+          right: 10px;
+          bottom: 25px;
+          top: 25px;
+        }
+
+        &.active {
+          // Dégradé
+          background: linear-gradient(
+                          to right,
+                          rgba(98, 113, 255, 1),
+                          rgba(121, 203, 255, 1)
+          ) left bottom no-repeat;
+          background-size: 100% 5px;
+        }
+
+
+        &.blue-phone {
+          padding: {
+            left: 25px;
+            right: 25px;
+          }
+          background-color: #6270ff;
+
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        &.phone-number {
+          font-family: "Bw Modelica Bold";
+        }
+
+        a {
+          @include unlink();
+        }
+      }
+    }
+  }
+}

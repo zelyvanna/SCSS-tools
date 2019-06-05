@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Bw Modelica Regular";
+  src: url("../../font/Bw Modelica/eot/BwModelica-Regular.eot"), url("../../font/Bw Modelica/woff/BwModelica-Regular.woff") format("woff"), url("../../font/Bw Modelica/woff2/BwModelica-Regular.woff2") format("woff2"), url("../../font/Bw Modelica/otf/BwModelica-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Bw Modelica Medium";
+  src: url("../../font/Bw Modelica/eot/BwModelica-Medium.eot"), url("../../font/Bw Modelica/woff/BwModelica-Medium.woff") format("woff"), url("../../font/Bw Modelica/woff2/BwModelica-Medium.woff2") format("woff2"), url("../../font/Bw Modelica/otf/BwModelica-Medium.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Bw Modelica Bold";
+  src: url("../../font/Bw Modelica/eot/BwModelica-Bold.eot"), url("../../font/Bw Modelica/woff/BwModelica-Bold.woff") format("woff"), url("../../font/Bw Modelica/woff2/BwModelica-Bold.woff2") format("woff2"), url("../../font/Bw Modelica/otf/BwModelica-Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Bw Modelica ExtraBold";
+  src: url("../../font/Bw Modelica/eot/BwModelica-ExtraBold.eot"), url("../../font/Bw Modelica/woff/BwModelica-ExtraBold.woff") format("woff"), url("../../font/Bw Modelica/woff2/BwModelica-ExtraBold.woff2") format("woff2"), url("../../font/Bw Modelica/otf/BwModelica-ExtraBold.otf") format("opentype"); }

@@ -1,0 +1,6 @@
+.col1 {
+  background: -webkit-gradient(linear, left top, right top, from(#6271ff), to(#79cbff)) left bottom no-repeat;
+  background: -webkit-linear-gradient(left, #6271ff, #79cbff) left bottom no-repeat;
+  background: -o-linear-gradient(left, #6271ff, #79cbff) left bottom no-repeat;
+  background: linear-gradient(to right, #6271ff, #79cbff) left bottom no-repeat;
+  background-size: 100% 5px; }

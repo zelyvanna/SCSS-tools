@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Bw Modelica Medium", sans-serif; }
+
+.blue-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #444dad;
+  font-family: "Bw Modelica ExtraBold", sans-serif;
+  font-size: 72pt;
+  text-align: center;
+  color: white; }
+
+.main-title {
+  text-align: center;
+  font-family: "Bw Modelica Bold", sans-serif; }
+
+h2 {
+  font-family: "Bw Modelica Bold", sans-serif; }
+
+main {
+  padding-left: 200px;
+  padding-right: 200px; }

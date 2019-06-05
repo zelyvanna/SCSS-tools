@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Bw Modelica Medium", sans-serif;
+}
+
+.blue-title {
+  padding: {
+    top: 50px;
+    bottom: 50px;
+  }
+  background-color: #444dad;
+
+  font: {
+    family: "Bw Modelica ExtraBold", sans-serif;
+    size: 72pt;
+  }
+
+  text-align: center;
+  color: white;
+}
+
+.main-title {
+  text-align: center;
+  font-family: "Bw Modelica Bold", sans-serif;
+  &--align-left{
+    font-family: "Bw Modelica Bold", sans-serif;
+    text-align: left;
+  }
+}
+
+h2 {
+  font-family: "Bw Modelica Bold", sans-serif;
+}
+
+main {
+  padding: {
+    left: 200px;
+    right: 200px;
+  }
+}
+
+p {
+  line-height: 45px;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.background-grey{
+  background-color: lightgray;
+}

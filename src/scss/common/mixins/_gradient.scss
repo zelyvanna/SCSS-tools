@@ -1,0 +1,34 @@
+@mixin gradient($startColor, $endColor) {
+  background: -moz-linear-gradient(45deg, $startColor 0%, $endColor 100%);
+  background: -webkit-linear-gradient(45deg, $startColor 0%, $endColor 100%);
+  background: linear-gradient(45deg, $startColor 0%, $endColor 100%)
+}
+
+@mixin gradient-text($startColor, $endColor){
+  background: linear-gradient(to right, $startColor 0%, $endColor 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin gradient-border($border){
+  position: relative;
+  box-sizing: border-box;
+
+  //$border: 5px;
+  background: #FFF;
+  background-clip: padding-box;
+  border: solid $border transparent;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -$border;
+    border-radius: inherit;
+    background: linear-gradient(to right, #79ccff, #9b74ff);
+  }
+}

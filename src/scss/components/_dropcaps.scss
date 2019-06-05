@@ -1,0 +1,23 @@
+.dropcap-blue-letter {
+  @include dropcap-letter();
+  @include dropcap-sizing();
+}
+
+.dropcap-gradient-italic-letter {
+  @include dropcap-letter();
+  @include dropcap-sizing();
+  @include dropcap-italic-letter-gradient();
+}
+
+.dropcap-round {
+  @include dropcap-letter(#FFFF);
+  @include dropcap-sizing();
+  @include dropcap-gradient();
+  @include dropcap-round();
+}
+
+.dropcap-square {
+  @include dropcap-letter(#FFFF);
+  @include dropcap-sizing();
+  @include dropcap-gradient();
+}

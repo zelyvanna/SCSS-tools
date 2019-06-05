@@ -1,0 +1,32 @@
+.buttons{
+  text-align: center;
+  padding: 15px;
+}
+
+.gradient-buttons{
+  color:white;
+  @include gradient(#79ccff,#6270ff);
+}
+
+.gradient-buttons-shadow{
+  color:white;
+  @include gradient(#79ccff,#6270ff);
+  box-shadow: 10px 5px 5px black;
+}
+
+.blue-buttons{
+  color: white;
+  background-color: #4651c3;
+}
+
+.border-gradient-buttons{
+  @include gradient-border(2px);
+}
+
+.buttons-rounded{
+  border-radius: 25px;
+}
+
+.buttons-softRounded{
+  border-radius: 15px;
+}

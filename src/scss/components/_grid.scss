@@ -1,0 +1,31 @@
+.grid-container-1 {
+  @include grid-generator(1);
+}
+
+.grid-container-2 {
+  @include grid-generator(2);
+}
+
+.grid-container-3 {
+  @include grid-generator(3);
+}
+
+.grid-container-4 {
+  @include grid-generator(4);
+}
+
+.grid-container-6 {
+  @include grid-generator(6);
+}
+
+.grid {
+  padding: {
+    top: 50px;
+    bot: 50px;
+  }
+
+  p {
+    color: #838383;
+    font-size: 15pt;
+  }
+}

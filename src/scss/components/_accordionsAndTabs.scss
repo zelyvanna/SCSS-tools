@@ -1,0 +1,151 @@
+.tabs-bottom-parent {
+  position: relative;
+}
+
+.tabs-picture {
+  background-color: gray;
+  //@include bottom-align();
+  width: 100%;
+  height: 50%;
+  margin-top: 50%;
+  float: bottom;
+}
+
+.tabs-list {
+  @include tab-list(lightgray);
+
+  &--nav {
+    @include nav-tabs();
+    @include tab-list(lightgray);
+    &--grey{
+      @include nav-tabs();
+      @include tab-list(white,lightgray);
+    }
+  }
+}
+
+.tabs-text{
+  @include bottom-align();
+}
+
+.tabs{
+  li{
+    &.active{
+      border-top:2px solid lightgray;
+      border-right: 2px solid lightgray;
+      border-left:2px solid lightgray;
+    }
+  }
+  @include nav-tabs();
+  @include tabs(#6270ff,white,white,black);
+  &--grey{
+    @include nav-tabs();
+    @include tabs(#6270ff,white,lightgray,black);
+  }
+}
+
+.tabs-content{
+  padding:100px ;
+  &--white{
+    border:2px solid lightgray;
+    padding:100px;
+  }
+}
+
+.big-tabs{
+  @include nav-tabs();
+  text-align: center;
+  li{
+    width: 100%;
+    height: 105px;
+    padding-top: 70px;
+    color:white;
+    background-color: black;
+    &.active{
+      background-color: #6270ff;
+    }
+  }
+
+  &--space-between{
+    @include nav-tabs();
+    text-align: center;
+    li{
+      margin: 5px;
+      width: 100%;
+      height: 105px;
+      padding-top: 70px;
+      color:white;
+      background-color: black;
+      &.active{
+        background-color: #6270ff;
+      }
+    }
+  }
+}
+
+.accordion-list{
+  li{
+    //border: 2px solid lightgray;
+    background-color: lightgray;
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &.active{
+      border: none;
+      @include gradient(#79ccff,#9b74ff);
+      color: white;
+    }
+  }
+
+  &--gradient{
+    li{
+      border: 2px solid lightgray;
+      padding: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      &.active{
+        @include gradient-border(2px);
+      }
+    }
+  }
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.circle-ul{
+  @include circle-ul();
+  &--gradient{
+    @include circle-ul();
+
+    @include gradient(#79ccff,#9b74ff);
+  }
+  &--active{
+    @include circle-ul(white);
+  }
+}
+
+.accordion{
+  padding-bottom: 45px !important;
+}
+
+ //hidden par défaut, panneau de l'accordion
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+.tabs-contents{
+  &--inactive{
+    display: none;
+    overflow: hidden;
+  }
+}
